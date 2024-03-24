@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "al",
+	"version": "0.1.2",
+	"name": "Al",
+	"description": "Aluminum mod. Change piston block's movements.",
+
+
+	"authors": [
+		"f0r4e"
+	],
+	"contact": {
+		"homepage": "https://space.bilibili.com/470821708",
+		"sources": "https://github.com/f0r4e/Aluminum-mod/"
+	},
+	"license": "MIT",
+	"icon": "assets/al/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aluminum.Al"
+		],
+		"fabric-datagen": [
+			"com.aluminum.AlDataGenerator"
+		]
+	},
+	"mixins": [
+		"al.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.20.4",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

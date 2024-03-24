@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.aluminum.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"isMovable",
+		"moveLimit"
+
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
