@@ -11,7 +11,7 @@ The PistonPushingLimit defaults to 12, which determines the upper limit of the p
 PistonForcePush is a Boolean value that defaults to true and determines whether the piston is forced to push.
 
 ---
-#铝
+# 铝
 这是一个 Minecraft mod，是关于活塞和其他东西。
 众所周知，活塞不能移动基岩、箱子等。
 游戏中增加了两个游戏规则。
